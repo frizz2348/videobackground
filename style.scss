@@ -85,7 +85,7 @@
     justify-content: center;
     align-items: center;
     z-index: -200;
-    background-color: rgb(231, 231, 231);
+    background-color: rgba(17, 15, 15, 0.904);
     font-size: 1.4em;
     li {
         padding: 20px;
@@ -93,6 +93,7 @@
         text-align: center;
         
         a {
+            color: white;
             text-decoration: none;
             text-transform: uppercase;
             transition: .5s;
@@ -191,21 +192,26 @@ img {
         }
     }
     .text {
+        margin-top: -60px;
+        width: 80%;
         h2 {
-            font-size: 3.5em;
+            font-size: 2em;
             font-weight: 700;
             line-height: 1em;
             text-transform: uppercase;
         }
 
         h3 {
-            font-size: 3em;
+            font-size: 1.7em;
             font-weight: 700;
             line-height: 1em;
             text-transform: uppercase;
         }
         p {
-
+            font-size: .9em;
+            margin: 10px;
+            font-weight: 300;
+            max-width: 700px;
         }
     }
 }

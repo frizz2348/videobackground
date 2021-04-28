@@ -75,13 +75,14 @@
   justify-content: center;
   align-items: center;
   z-index: -200;
-  background-color: #e7e7e7;
+  background-color: rgba(17, 15, 15, 0.904);
   font-size: 1.4em; }
   .menu li {
     padding: 20px;
     list-style: none;
     text-align: center; }
     .menu li a {
+      color: white;
       text-decoration: none;
       text-transform: uppercase;
       transition: .5s; }
@@ -158,15 +159,23 @@ img {
       padding: 10px;
       border-radius: .3em; }
 
-  .text h2 {
-    font-size: 3.5em;
-    font-weight: 700;
-    line-height: 1em;
-    text-transform: uppercase; }
-  .text h3 {
-    font-size: 3em;
-    font-weight: 700;
-    line-height: 1em;
-    text-transform: uppercase; } }
+  .text {
+    margin-top: -60px;
+    width: 80%; }
+    .text h2 {
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1em;
+      text-transform: uppercase; }
+    .text h3 {
+      font-size: 1.7em;
+      font-weight: 700;
+      line-height: 1em;
+      text-transform: uppercase; }
+    .text p {
+      font-size: .9em;
+      margin: 10px;
+      font-weight: 300;
+      max-width: 700px; } }
 
 /*# sourceMappingURL=style.css.map */
