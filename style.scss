@@ -66,8 +66,35 @@
 }
 
 .menu {
-    
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 230px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200000;
+    background-color: rgb(231, 231, 231);
+    font-size: 1.4em;
+    li {
+        padding: 20px;
+        list-style: none;
+        text-align: center;
+        
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: .5s;
+            &:hover {
+                letter-spacing: .1em;
+            }
+        }
+    }
 }
+
+
 
 img {
     width: 30px;
@@ -117,7 +144,7 @@ img {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #1c4df1ad;
+    background-color: #1c4ef100;
     mix-blend-mode: overlay;
 }
 
