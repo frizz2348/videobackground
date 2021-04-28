@@ -129,7 +129,7 @@ img {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #1c4ef100;
+  background-color: #254ed6de;
   mix-blend-mode: overlay; }
 
 .social {
@@ -149,5 +149,24 @@ img {
       transition: .5s; }
       .social li a:hover {
         transform: scale(1.2) translateY(-15px); }
+
+@media (max-width: 680px) {
+  .showcase header {
+    padding: 40px 30px; }
+    .showcase header .logo {
+      background-color: #d31515;
+      padding: 10px;
+      border-radius: .3em; }
+
+  .text h2 {
+    font-size: 3.5em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase; }
+  .text h3 {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase; } }
 
 /*# sourceMappingURL=style.css.map */

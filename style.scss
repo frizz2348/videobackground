@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -152,7 +153,7 @@ img {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #1c4ef100;
+    background-color: #254ed6de;
     mix-blend-mode: overlay;
 }
 
@@ -177,4 +178,34 @@ img {
         }
     }
 
+}
+
+@media (max-width: 680px) {
+    .showcase header {
+        padding: 40px 30px;
+
+        .logo {
+            background-color: rgb(211, 21, 21);
+            padding: 10px;
+            border-radius: .3em;
+        }
+    }
+    .text {
+        h2 {
+            font-size: 3.5em;
+            font-weight: 700;
+            line-height: 1em;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: 3em;
+            font-weight: 700;
+            line-height: 1em;
+            text-transform: uppercase;
+        }
+        p {
+
+        }
+    }
 }
