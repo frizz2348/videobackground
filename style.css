@@ -16,7 +16,11 @@
   align-items: center;
   background-color: #816262;
   color: white;
-  z-index: 2; }
+  z-index: 2000;
+  transition: 1.2s ease-in-out; }
+  .showcase.active {
+    transition: 1.2s ease-in-out;
+    right: 260px; }
   .showcase header {
     position: absolute;
     top: 0;
@@ -44,7 +48,8 @@
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: center;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: 1s ease-in; }
 
 .logo {
   text-transform: uppercase;
@@ -52,6 +57,8 @@
 
 .toggle.active {
   background: url("./close.png");
+  position: absolute;
+  right: 0;
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: center;
@@ -62,12 +69,12 @@
   top: 0;
   right: 0;
   display: block;
-  width: 230px;
+  width: 260px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 200000;
+  z-index: -200;
   background-color: #e7e7e7;
   font-size: 1.4em; }
   .menu li {

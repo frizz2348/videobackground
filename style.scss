@@ -18,7 +18,12 @@
     align-items: center;
     background-color: rgb(129, 98, 98);
     color: white;
-    z-index: 2;
+    z-index: 2000;
+    transition: 1.2s ease-in-out;
+    &.active {
+        transition: 1.2s ease-in-out;
+        right: 260px;
+    }
     header {
         position: absolute;
         top: 0;
@@ -50,6 +55,7 @@
     background-size: 40px;
     background-position: center;
     cursor: pointer;
+    transition: 1s ease-in;
 }
 
 .logo {
@@ -59,6 +65,8 @@
 
 .toggle.active {
     background: url('./close.png');
+    position: absolute;
+    right: 0;
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: center;
@@ -70,12 +78,12 @@
     top: 0;
     right: 0;
     display: block;
-    width: 230px;
+    width: 260px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 200000;
+    z-index: -200;
     background-color: rgb(231, 231, 231);
     font-size: 1.4em;
     li {
