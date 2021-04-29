@@ -193,16 +193,16 @@ img {
     }
     .text {
         margin-top: -60px;
-        width: 80%;
+        width: 100%;
         h2 {
-            font-size: 2em;
+            font-size: 3em;
             font-weight: 700;
             line-height: 1em;
             text-transform: uppercase;
         }
 
         h3 {
-            font-size: 1.7em;
+            font-size: 2.5em;
             font-weight: 700;
             line-height: 1em;
             text-transform: uppercase;
@@ -212,6 +212,8 @@ img {
             margin: 10px;
             font-weight: 300;
             max-width: 700px;
+            width: 400px;
+            line-height: 1.4em;
         }
     }
 }
