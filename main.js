@@ -6,7 +6,8 @@ menuToggle.addEventListener('click',  () => {
     showcase.classList.toggle('active')
 });
 
+/*
 showcase.addEventListener('click', function() {
     menuToggle.classList.toggle('active')
     showcase.classList.toggle('active')
-});
+}); */
