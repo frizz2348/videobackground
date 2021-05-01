@@ -84,8 +84,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: -200;
-    background-color: rgba(17, 15, 15, 0.904);
+    z-index: 200;
+    background-color: rgb(131, 116, 156);
     font-size: 1.4em;
     li {
         padding: 20px;
@@ -93,12 +93,14 @@
         text-align: center;
         
         a {
-            color: white;
+            color: rgb(5, 4, 4);
             text-decoration: none;
             text-transform: uppercase;
             transition: .5s;
+            cursor: pointer;
             &:hover {
-                letter-spacing: .1em;
+                letter-spacing: .3em;
+                color: rgba(231, 64, 13, 0.993);
             }
         }
     }
@@ -154,7 +156,7 @@ img {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #254ed6de;
+    background-color: #000000bd;
     mix-blend-mode: overlay;
 }
 
@@ -174,7 +176,7 @@ img {
             transform: scale(.9);
             transition: .5s;
             &:hover {
-                transform: scale(1.2) translateY(-15px);
+                letter-spacing: .5em;
             }
         }
     }
